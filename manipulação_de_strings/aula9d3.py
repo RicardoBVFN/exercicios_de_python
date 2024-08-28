@@ -1,0 +1,5 @@
+nome = str(input('digite o nome de uma cidade: '))
+nome_split = nome.split()
+primeiro_nome = nome_split[0].lower()
+validacao = ('santo' in primeiro_nome)
+print('o nome dessa cidade começa com "Santo"? {}' .format(validacao))
